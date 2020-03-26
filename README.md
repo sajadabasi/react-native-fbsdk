@@ -1,5 +1,5 @@
-- Fork Detail
-   - fix build error
+# Fork Detail
+- fix build error
 
 
 # React Native FBSDK
