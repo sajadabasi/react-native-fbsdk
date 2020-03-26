@@ -50,6 +50,7 @@ def FACEBOOK_SDK_VERSION = safeExtGet('facebookSdkVersion', '[5.0,6.0[')
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation('com.android.installreferrer:installreferrer:1.1.2')
     implementation "com.facebook.android:facebook-core:${FACEBOOK_SDK_VERSION}"
     implementation "com.facebook.android:facebook-login:${FACEBOOK_SDK_VERSION}"
     implementation "com.facebook.android:facebook-share:${FACEBOOK_SDK_VERSION}"
